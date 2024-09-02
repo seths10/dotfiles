@@ -22,3 +22,5 @@ lazygit.tar.gz
 .sudo_as_admin_successful
 .bashrc
 .oh-my-zsh
+.ssh
+.config/gh
