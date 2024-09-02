@@ -1,4 +1,4 @@
-# This is the dotfiles for my neovim-zsh configuration
+# This is the dotfiles for my neovim-tmux configuration
 
 > [!IMPORTANT]
 >
