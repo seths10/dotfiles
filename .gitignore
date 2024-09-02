@@ -25,3 +25,4 @@ lazygit.tar.gz
 .ssh
 .config/gh
 .python-history
+.python_history
