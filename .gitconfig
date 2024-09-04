@@ -15,3 +15,9 @@
 [user]
 	email = addoseth35@gmail.com
 	name = Seth Addo
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/seth/.local/share/nvim/mason/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/seth/.local/share/nvim/mason/bin/gh auth git-credential
