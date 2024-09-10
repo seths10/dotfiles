@@ -21,3 +21,5 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/home/seth/.local/share/nvim/mason/bin/gh auth git-credential
+; [credential]
+	; helper = wincred
