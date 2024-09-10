@@ -161,5 +161,25 @@ bindkey -M viins '^[OB' history-substring-search-down
 # # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 # [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
+
+# ZNAP_LOCATION=$ZDOTDIR/plugins/znap
+# # [[ -r $ZNAP_LOCATION/znap.zsh ]] ||
+#     git clone --depth 1 -- \
+#         https://github.com/marlonrichert/zsh-snap.git $ZNAP_LOCATION
+# source $ZNAP_LOCATION/znap.zsh  # Start Znap
+
+# # `znap prompt` makes your prompt visible in just 15-40ms!
+# znap prompt sindresorhus/pure
+
+# # `znap source` starts plugins.
+# znap source marlonrichert/zsh-autocomplete
+
+# # `znap eval` makes evaluating generated command output up to 10 times faster.
+# znap eval iterm2 'curl -fsSL https://iterm2.com/shell_integration/zsh'
+
+# # `znap install` adds new commands and completions.
+# znap install aureliojargas/clitest zsh-users/zsh-completions
+
+
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
